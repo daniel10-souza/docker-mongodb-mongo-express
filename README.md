@@ -9,6 +9,7 @@ https://hub.docker.com/_/mongo-express
 ...
 
 docker volume create mongo_db
+
 ...
 ## 3 - Criar a rede de comunicação entre os containers
 
