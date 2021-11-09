@@ -7,9 +7,10 @@ https://hub.docker.com/_/mongo-express
 
 # 2 - Criando o volume
 É preciso criar um volume para que os dados permanessão 
+...
 
 docker volume create mongo_db
-
+...
 # 3 - Criar a rede de comunicação entre os containers
 
 docker network create net_mongo
