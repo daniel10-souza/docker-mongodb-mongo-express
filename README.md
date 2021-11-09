@@ -2,7 +2,7 @@
 Rodando Docker | MongoDB | Mongo Express
 
 Imagem Mongo Express
-   https://hub.docker.com/_/mongo-express
+{https://hub.docker.com/_/mongo-express}
 
 
 # 2 - Criando o volume
