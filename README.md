@@ -16,7 +16,7 @@ docker network create net_mongo
 
 ## 4 Criando a imagem do Mongo
 
-docker container run --name mongoDB -v "base_mongo:/dados" -d mongo:latest
+docker container run --name mongoDB -v "mongo_db:/dados" -d mongo:latest
 
 ## 5 - Vinculando a imagem na rede
 docker network connect net_mongo <ID da imagem>
